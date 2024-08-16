@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
