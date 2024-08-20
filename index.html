@@ -6,6 +6,14 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="./style.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -16,31 +24,31 @@
 </head>
 
 <body>
-
-  <div class="content">
-    <img src="./images/image-header-desktop.jpg" alt="image-header-desktop">
-
-    <div class="text">
-      <div class="heading">
-        Get <div>insights</div> that help your business grow.
+  <div class="page">
+    <div></div>
+    <div class="content">
+      <div class="page_image-container">
+        <img src="./images/image-header-desktop.jpg" alt="image-header-desktop" class="page_image">
       </div>
-
-      <div class="paragraph">
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency.
+      <div class="text">
+        <div class="heading inter-font1">
+         Get <span>insights</span> that help your business grow.
+        </div>
+        <p  class="lexend-deca-font2">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.
+        </p>
+        <div class="stats">
+          <div class="stats_style"><h3 class="inter-font1">10k+</h3> <div class="lexend-deca-font2 sub_stat">COMPANIES</div></div>
+          <div class="stats_style"><h3 class="inter-font1">314</h3> <div class="lexend-deca-font2 sub_stat">TEMPLATES</div></div>
+          <div class="stats_style"><h3 class="inter-font1">12m+</h3> <div class="lexend-deca-font2 sub_stat">QUERIES</div></h3></div>
+        </div>
       </div>
-
-      <div class="stats">
-        10k+ companies
-        314 templates
-        12m+ queries
-      </div>
-
     </div>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Axel0th">Aryoss</a>.
+    </div>
   </div>
 </body>
 </html>
